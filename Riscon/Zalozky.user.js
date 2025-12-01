@@ -2,7 +2,7 @@
 // @name           Riscon: Zvýraznění záložek
 // @namespace      https://github.com/Kamdar-Wolf/Prace
 // @version        7.0
-// @description:cs Výběr a zvýraznění záložek v RISCON, ukládání oblíbených záložek podle stránky.
+// @description    Výběr a zvýraznění záložek v RISCON, ukládání oblíbených záložek podle stránky.
 // @author         Martin
 // @copyright      2025, Martin
 // @license        Proprietary - internal use only

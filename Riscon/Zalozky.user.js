@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Riscon: Rizika - zvýraznění záložek
-// @version      3.0
+// @version      3.2
 // @description  Výběr a zvýraznění záložek.
 // @author       Martin
 // @match        https://*/ords/*/f?p=110:*

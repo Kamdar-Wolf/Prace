@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Riscon: JSON
 // @namespace    Automatické doplňování ve formátu JSON
-// @version      6.5
+// @version      6.6
 // @description  Vyplní formulář z JSONu a vytěží data v APEX stylu.
 // @match        https://*/ords/*/f?p=110:*
 // @match        https://www.riscon.cz/go/f?p=110*
 // @icon         https://www.riscon.cz//i/favicon.ico
-// @updateURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon.user.js
-// @downloadURL  https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon.user.js
+// @updateURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/JSON.user.js
+// @downloadURL  https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/JSON.user.js
 // @grant        none
 // ==/UserScript==
 (function () {

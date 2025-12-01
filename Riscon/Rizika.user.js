@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Riscon: Rizika (barvy, popisky GKI, legenda účinnosti opatření)
-// @version      3.5
+// @version      3.6
 // @description  Sjednocený skript: úprava popisků přepínačů + barevné zvýraznění rizik podle hodnot + legenda účinnosti opatření.
 // @author       Martin
 // @match        https://www.riscon.cz/*
 // @icon         https://www.riscon.cz//i/favicon.ico
-// @updateURL    https://raw.githubusercontent.com/Kamdar-Wolf/Skripty/master/Riscon/Rizika.js
-// @downloadURL  https://raw.githubusercontent.com/Kamdar-Wolf/Skripty/master/Riscon/Rizika.js
+// @updateURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.js
+// @downloadURL  https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.js
 // @grant        none
 // ==/UserScript==
 

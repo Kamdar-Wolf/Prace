@@ -4,7 +4,7 @@
 // @version        7.0
 // @description    Sjednocený skript pro RISCON: úprava popisků GKI, barevné zvýraznění rizik podle hodnot a legenda účinnosti opatření.
 // @author         Martin
-// @copyright      2024-2025, Martin
+// @copyright      2025, Martin
 // @license        Proprietary - internal use only
 // @homepageURL    https://github.com/Kamdar-Wolf/Prace
 // @website        https://www.riscon.cz/

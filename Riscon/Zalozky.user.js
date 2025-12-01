@@ -10,8 +10,8 @@
 // @website        https://www.riscon.cz/
 // @source         https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Zalozky.user.js
 // @supportURL     https://github.com/Kamdar-Wolf/Prace/issues
-// @icon           https://www.riscon.cz/i/favicon.ico
-// @icon64         https://www.riscon.cz/i/favicon.ico
+// @icon           https://www.oracle.com/a/ocom/img/rest.svg
+// @icon64         https://www.oracle.com/a/ocom/img/rest.svg
 // @updateURL      https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Zalozky.user.js
 // @downloadURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Zalozky.user.js
 // @match          https://*/ords/*/f?p=110:*

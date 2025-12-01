@@ -3,7 +3,6 @@
 // @name:cs        Riscon: JSON
 // @namespace      https://github.com/Kamdar-Wolf/Prace
 // @version        7.0
-// @description    APEX JSON helper: fills Riscon form from JSON and extracts data back to JSON.
 // @description:cs Vyplní formulář v RISCON APEX z JSONu a vytěží tisk zpět do JSONu.
 // @author         Martin
 // @copyright      2024-2025, Martin

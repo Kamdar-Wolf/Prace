@@ -1,14 +1,30 @@
 // ==UserScript==
-// @name         Riscon: Zvýraznění záložek
-// @version      3.3
-// @description  Výběr a zvýraznění záložek pro snadnější vyhledání.
-// @author       Martin
-// @match        https://*/ords/*/f?p=110:*
-// @match        https://www.riscon.cz/go/f?p=110*
-// @icon         https://www.riscon.cz//i/favicon.ico
-// @updateURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Zalozky.user.js
-// @downloadURL  https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Zalozky.user.js
-// @grant        none
+// @name           Riscon: Zvýraznění záložek
+// @namespace      https://github.com/Kamdar-Wolf/Prace
+// @version        7.0
+// @description:cs Výběr a zvýraznění záložek v RISCON, ukládání oblíbených záložek podle stránky.
+// @author         Martin
+// @copyright      2025, Martin
+// @license        Proprietary - internal use only
+// @homepageURL    https://github.com/Kamdar-Wolf/Prace
+// @website        https://www.riscon.cz/
+// @source         https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Zalozky.user.js
+// @supportURL     https://github.com/Kamdar-Wolf/Prace/issues
+// @icon           https://www.riscon.cz/i/favicon.ico
+// @icon64         https://www.riscon.cz/i/favicon.ico
+// @updateURL      https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Zalozky.user.js
+// @downloadURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Zalozky.user.js
+// @match          https://*/ords/*/f?p=110:*
+// @match          https://www.riscon.cz/go/f?p=110*
+// @noframes
+// @run-at         document-end
+// @tag            riscon
+// @tag            zalozky
+// @tag            bozp
+// @compatible     chrome Tampermonkey
+// @compatible     firefox Tampermonkey
+// @compatible     edge Tampermonkey
+// @grant          none
 // ==/UserScript==
 
 (function () {

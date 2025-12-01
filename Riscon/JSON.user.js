@@ -1,15 +1,33 @@
 // ==UserScript==
-// @name         Riscon: JSON
-// @namespace    Automatické doplňování ve formátu JSON
-// @version      6.6
-// @description  Vyplní formulář z JSONu a vytěží data v APEX stylu.
-// @match        https://*/ords/*/f?p=110:*
-// @match        https://www.riscon.cz/go/f?p=110*
-// @icon         https://www.riscon.cz//i/favicon.ico
-// @updateURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/JSON.user.js
-// @downloadURL  https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/JSON.user.js
-// @grant        none
+// @name           Riscon: JSON
+// @name:cs        Riscon: JSON
+// @namespace      https://github.com/Kamdar-Wolf/Prace
+// @version        7.0
+// @description    APEX JSON helper: fills Riscon form from JSON and extracts data back to JSON.
+// @description:cs Vyplní formulář v RISCON APEX z JSONu a vytěží tisk zpět do JSONu.
+// @author         Martin
+// @copyright      2024-2025, Martin
+// @license        Proprietary - internal use only
+// @homepageURL    https://github.com/Kamdar-Wolf/Prace
+// @website        https://www.riscon.cz/
+// @source         https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/JSON.user.js
+// @supportURL     https://github.com/Kamdar-Wolf/Prace/issues
+// @icon           https://www.riscon.cz/i/favicon.ico
+// @icon64         https://www.riscon.cz/i/favicon.ico
+// @updateURL      https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/JSON.user.js
+// @downloadURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/JSON.user.js
+// @match          https://*/ords/*/f?p=110:*
+// @match          https://www.riscon.cz/go/f?p=110*
+// @noframes
+// @run-at         document-end
+// @tag            riscon
+// @tag            bozp
+// @compatible     chrome Tampermonkey
+// @compatible     firefox Tampermonkey
+// @compatible     edge Tampermonkey
+// @grant          none
 // ==/UserScript==
+
 (function () {
   'use strict';
   // ========== VÝCHOZÍ ŠABLONA JSONU ==========

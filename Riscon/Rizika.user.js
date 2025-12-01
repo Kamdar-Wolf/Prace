@@ -2,7 +2,7 @@
 // @name           Riscon: Rizika (barvy, popisky GKI, legenda účinnosti opatření)
 // @namespace      https://github.com/Kamdar-Wolf/Prace
 // @version        7.0
-// @description:cs Sjednocený skript pro RISCON: úprava popisků GKI, barevné zvýraznění rizik podle hodnot a legenda účinnosti opatření.
+// @description    Sjednocený skript pro RISCON: úprava popisků GKI, barevné zvýraznění rizik podle hodnot a legenda účinnosti opatření.
 // @author         Martin
 // @copyright      2024-2025, Martin
 // @license        Proprietary - internal use only

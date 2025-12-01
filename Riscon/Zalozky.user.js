@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name         Riscon: Rizika - zvýraznění záložek
+// @name         Riscon: Zvýraznění záložek
 // @version      3.2
 // @description  Výběr a zvýraznění záložek.
 // @author       Martin
 // @match        https://*/ords/*/f?p=110:*
 // @match        https://www.riscon.cz/go/f?p=110*
 // @icon         https://www.riscon.cz//i/favicon.ico
-// @updateURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon_zalozky.user.js
-// @downloadURL  https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon_zalozky.user.js
+// @updateURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Zalozky.user.js
+// @downloadURL  https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Zalozky.user.js
 // @grant        none
 // ==/UserScript==
 

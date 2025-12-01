@@ -2,7 +2,7 @@
 // @name           Riscon: JSON
 // @namespace      https://github.com/Kamdar-Wolf/Prace
 // @version        7.0
-// @description:cs Vyplní formulář v RISCON APEX z JSONu a vytěží tisk zpět do JSONu.
+// @description    Vyplní formulář v RISCON APEX z JSONu a vytěží tisk zpět do JSONu.
 // @author         Martin
 // @copyright      2025, Martin
 // @license        Proprietary - internal use only

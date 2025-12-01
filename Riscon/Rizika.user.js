@@ -1,14 +1,32 @@
 // ==UserScript==
-// @name         Riscon: Rizika (barvy, popisky GKI, legenda účinnosti opatření)
-// @version      3.6
-// @description  Sjednocený skript: úprava popisků přepínačů + barevné zvýraznění rizik podle hodnot + legenda účinnosti opatření.
-// @author       Martin
-// @match        https://www.riscon.cz/*
-// @icon         https://www.riscon.cz//i/favicon.ico
-// @updateURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.js
-// @downloadURL  https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.js
-// @grant        none
+// @name           Riscon: Rizika (barvy, popisky GKI, legenda účinnosti opatření)
+// @namespace      https://github.com/Kamdar-Wolf/Prace
+// @version        7.0
+// @description:cs Sjednocený skript pro RISCON: úprava popisků GKI, barevné zvýraznění rizik podle hodnot a legenda účinnosti opatření.
+// @author         Martin
+// @copyright      2024-2025, Martin
+// @license        Proprietary - internal use only
+// @homepageURL    https://github.com/Kamdar-Wolf/Prace
+// @website        https://www.riscon.cz/
+// @source         https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.js
+// @supportURL     https://github.com/Kamdar-Wolf/Prace/issues
+// @icon           https://www.riscon.cz/i/favicon.ico
+// @icon64         https://www.riscon.cz/i/favicon.ico
+// @updateURL      https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.js
+// @downloadURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.js
+// @match          https://www.riscon.cz/*
+// @noframes
+// @run-at         document-end
+// @tag            riscon
+// @tag            rizika
+// @tag            GKI
+// @tag            bozp
+// @compatible     chrome Tampermonkey
+// @compatible     firefox Tampermonkey
+// @compatible     edge Tampermonkey
+// @grant          none
 // ==/UserScript==
+
 
 (function() {
 'use strict';

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Riscon: JSON
 // @namespace      https://github.com/Kamdar-Wolf/Prace
-// @version        7.0
+// @version        7.1
 // @description    Vyplní formulář v RISCON APEX z JSONu a vytěží tisk zpět do JSONu.
 // @author         Martin
 // @copyright      2025, Martin
@@ -18,11 +18,8 @@
 // @match          https://www.riscon.cz/go/f?p=110*
 // @noframes
 // @run-at         document-end
-// @tag            riscon
-// @tag            bozp
-// @compatible     chrome Tampermonkey
-// @compatible     firefox Tampermonkey
-// @compatible     edge Tampermonkey
+// @tag            Riscon
+// @tag            BOZP
 // @grant          none
 // ==/UserScript==
 
@@ -61,6 +58,29 @@
   const fire = (el) => {
     el.dispatchEvent(new Event('input',  { bubbles: true }));
     el.dispatchEvent(new Event('change', { bubbles: true }));
+  };
+
+  // ---------- radio helper ----------
+  const setRadio = (nameOrId, val) => {
+    const sval = String(val);
+
+    // 1) pokus podle name
+    let radios = document.querySelectorAll(`input[type="radio"][name="${nameOrId}"]`);
+
+    // 2) fallback: id s daným prefixem (P3110_A4_FREQUENCY_0, _1, …)
+    if (!radios.length) {
+      radios = document.querySelectorAll(`input[type="radio"][id^="${nameOrId}"]`);
+    }
+    if (!radios.length) return;
+
+    let target = null;
+    radios.forEach(r => {
+      if (String(r.value) === sval) target = r;
+    });
+    if (!target) return;
+
+    target.checked = true;
+    fire(target);
   };
 
   // ---------- set values ----------
@@ -165,11 +185,28 @@
     }
   }
 
+  // ---------- GK radio položky (F / P / C) ----------
+  const GK_RADIOS = new Set([
+    'P3110_A4_FREQUENCY',
+    'P3110_A4_PROBABILITY',
+    'P3110_A4_CONSEQUENCE'
+  ]);
+
   // ---------- fill ----------
   async function fillForm(json) {
     const data = typeof json === 'string' ? parseMaybeRelaxedJSON(json) : json;
+
     for (const [k, v] of Object.entries(data)) {
       if (v == null) continue;
+
+      // GK F / P / C → rádio podle name/id a value
+      if (GK_RADIOS.has(k)) {
+        setRadio(k, v);
+        await pause(20);
+        continue;
+      }
+
+      // ostatní položky
       if (/<[a-z][\s\S]*>/i.test(String(v))) setCk(k, v);
       else setVal(k, v);
       await pause(20);

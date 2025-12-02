@@ -8,12 +8,12 @@
 // @license        Proprietary - internal use only
 // @homepageURL    https://github.com/Kamdar-Wolf/Prace
 // @website        https://www.riscon.cz/
-// @source         https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.js
+// @source         https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.user.js
 // @supportURL     https://github.com/Kamdar-Wolf/Prace/issues
 // @icon           https://www.oracle.com/a/ocom/img/rest.svg
 // @icon64         https://www.oracle.com/a/ocom/img/rest.svg
-// @updateURL      https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.js
-// @downloadURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.js
+// @updateURL      https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.user.js
+// @downloadURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.user.js
 // @match          https://www.riscon.cz/*
 // @noframes
 // @run-at         document-end

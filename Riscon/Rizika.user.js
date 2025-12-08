@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Riscon: Rizika (barvy, popisky GKI, legenda účinnosti opatření)
 // @namespace      https://github.com/Kamdar-Wolf/Prace
-// @version        7.0
+// @version        7.0.5
 // @description    Sjednocený skript pro RISCON: úprava popisků GKI, barevné zvýraznění rizik podle hodnot a legenda účinnosti opatření.
 // @author         Martin
 // @copyright      2025, Martin
@@ -12,8 +12,8 @@
 // @supportURL     https://github.com/Kamdar-Wolf/Prace/issues
 // @icon           https://www.oracle.com/a/ocom/img/rest.svg
 // @icon64         https://www.oracle.com/a/ocom/img/rest.svg
-// @updateURL      https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.user.js
-// @downloadURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Rizika.user.js
+// @updateURL      https://raw.githubusercontent.com/Martin-CHT/Riscon/master/Rizika.user.js
+// @downloadURL    https://raw.githubusercontent.com/Martin-CHT/Riscon/master/Rizika.user.js
 // @match          https://www.riscon.cz/*
 // @noframes
 // @run-at         document-end

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Riscon: Zvýraznění záložek
 // @namespace      https://github.com/Kamdar-Wolf/Prace
-// @version        7.0
+// @version        7.0.5
 // @description    Výběr a zvýraznění záložek v RISCON, ukládání oblíbených záložek podle stránky.
 // @author         Martin
 // @copyright      2025, Martin
@@ -12,8 +12,8 @@
 // @supportURL     https://github.com/Kamdar-Wolf/Prace/issues
 // @icon           https://www.oracle.com/a/ocom/img/rest.svg
 // @icon64         https://www.oracle.com/a/ocom/img/rest.svg
-// @updateURL      https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Zalozky.user.js
-// @downloadURL    https://raw.githubusercontent.com/Kamdar-Wolf/Prace/master/Riscon/Zalozky.user.js
+// @updateURL      https://raw.githubusercontent.com/Martin-CHT/Riscon/master/Zalozky.user.js
+// @downloadURL    https://raw.githubusercontent.com/Martin-CHT/Riscon/master/Zalozky.user.js
 // @match          https://*/ords/*/f?p=110:*
 // @match          https://www.riscon.cz/go/f?p=110*
 // @noframes
